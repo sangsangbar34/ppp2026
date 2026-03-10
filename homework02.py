@@ -12,8 +12,8 @@ BMI=f"{w/(h*h)}"
 print(BMI)
 
 r=4
-O=f"{r*r}π"
-print(O)
+area=f"{r*r}π"
+print(area)
 
 밑변=5
 윗변=3
