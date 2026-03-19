@@ -16,3 +16,5 @@ elif Q==4 :
     CM= float(input("길이(cm)를 입력하세요."))
     FT= CM/30.48
     print("{}(cm) => {:.1f}(ft)입니다.".format(CM, FT))
+else :
+    print("잘 못 된 값입니다.")
