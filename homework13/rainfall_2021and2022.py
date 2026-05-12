@@ -19,6 +19,7 @@ def main():
     rainfall = read_weather_col(weather_filename)
     years = read_weather_col(weather_filename, 0, int)
 
+
     for y in range(2021, 2023):
         rainfall_y = sumifs(rainfall, years, [y])
         print(f"{y}년 강수량은 {rainfall_y:.1f}mm입니다.")
